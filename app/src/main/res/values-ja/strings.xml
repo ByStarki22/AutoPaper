@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">オートペーパー</string>
+    <string name="guardar">保存</string>
+    <string name="establecer_fondo">壁紙に設定</string>
+    <string name="input_text_hint">ここにテキストを入力</string>
+    <string name="generar_y_mostrar">画像を生成して表示</string>
+    <string name="progress_dialog_message">処理中です</string>
+    <string name="image_generation_successful">画像生成に成功しました !!!</string>
+    <string name="save_image_success">画像を正常に保存しました</string>
+    <string name="save_image_error">画像の保存中にエラーが発生しました</string>
+    <string name="set_wallpaper_error">壁紙の設定中にエラーが発生しました</string>
+    <string name="wallpaper_set_success">壁紙が正常に設定されました</string>
+    <string name="input_text_empty_warning">画像を保存する前に画像を生成してください</string>
+    <string name="background_set_warning">壁紙として設定する前に画像を生成してください</string>
+    <string name="input_empty_warning">画像を生成する前にテキストを入力してください。</string>
+    <string name="paypal_dialog_title">寄付したい金額を入力してください：</string>
+    <string name="paypal_dialog_hint">金額</string>
+    <string name="paypal_dialog_button">PayPalで支払う</string>
+    <string name="paypal_dialog_donation">寄付</string>
+
+</resources>

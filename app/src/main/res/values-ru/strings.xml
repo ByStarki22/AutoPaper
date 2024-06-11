@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">АвтоБумага</string>
+    <string name="guardar">Сохранить</string>
+    <string name="establecer_fondo">Установить как обои</string>
+    <string name="input_text_hint">Введите текст здесь</string>
+    <string name="generar_y_mostrar">Создать и показать изображение</string>
+    <string name="progress_dialog_message">Процесс выполняется</string>
+    <string name="image_generation_successful">Генерация изображения УСПЕШНО!!!</string>
+    <string name="save_image_success">Изображение успешно сохранено</string>
+    <string name="save_image_error">Ошибка при сохранении изображения</string>
+    <string name="set_wallpaper_error">Ошибка установки обоев</string>
+    <string name="wallpaper_set_success">Обои успешно установлены</string>
+    <string name="input_text_empty_warning">Сначала создайте изображение, а затем сохраните его</string>
+    <string name="background_set_warning">Сначала создайте изображение, а затем установите его как фон</string>
+    <string name="input_empty_warning">Пожалуйста, введите текст перед созданием изображения.</string>
+    <string name="paypal_dialog_title">Введите сумму, которую хотите пожертвовать:</string>
+    <string name="paypal_dialog_hint">Сумма</string>
+    <string name="paypal_dialog_button">Оплатить через PayPal</string>
+    <string name="paypal_dialog_donation">Пожертвование</string>
+
+</resources>

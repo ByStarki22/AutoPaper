@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoPaper</string>
+    <string name="guardar">Save</string>
+    <string name="establecer_fondo">Set as Wallpaper.</string>
+    <string name="input_text_hint">Input Text Here</string>
+    <string name="generar_y_mostrar">Generate and Show Image</string>
+    <string name="progress_dialog_message">Thread is in process</string>
+    <string name="image_generation_successful">Image Generation SUCCESSFUL!!!</string>
+    <string name="save_image_success">Image saved successfully</string>
+    <string name="save_image_error">Error saving image</string>
+    <string name="set_wallpaper_error">Error setting wallpaper.</string>
+    <string name="wallpaper_set_success">Wallpaper set successfully.</string>
+    <string name="input_text_empty_warning">Generate an image before saving it.</string>
+    <string name="background_set_warning">Generate an image before setting it as wallpaper.</string>
+    <string name="input_empty_warning">Please enter text before generating the image.</string>
+    <string name="paypal_dialog_title">Enter the amount you want to donate:</string>
+    <string name="paypal_dialog_hint">Amount</string>
+    <string name="paypal_dialog_button">Pay with PayPal</string>
+    <string name="paypal_dialog_donation">Donation</string>
+
+</resources>

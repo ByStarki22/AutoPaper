@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أوتو بابر</string>
+    <string name="guardar">حفظ</string>
+    <string name="establecer_fondo">تعيين كخلفية</string>
+    <string name="input_text_hint">أدخل النص هنا</string>
+    <string name="generar_y_mostrar">إنشاء وعرض الصورة</string>
+    <string name="progress_dialog_message">الموضوع قيد التقدم</string>
+    <string name="image_generation_successful">نجاح إنشاء الصورة!!!</string>
+    <string name="save_image_success">تم حفظ الصورة بنجاح</string>
+    <string name="save_image_error">خطأ في حفظ الصورة</string>
+    <string name="set_wallpaper_error">خطأ في تعيين الخلفية</string>
+    <string name="wallpaper_set_success">تم تعيين الخلفية بنجاح</string>
+    <string name="input_text_empty_warning">قم بإنشاء صورة قبل حفظها</string>
+    <string name="background_set_warning">قم بإنشاء صورة قبل تعيينها كخلفية</string>
+    <string name="input_empty_warning">يرجى إدخال النص قبل توليد الصورة.</string>
+    <string name="paypal_dialog_title">أدخل المبلغ الذي ترغب في التبرع به:</string>
+    <string name="paypal_dialog_hint">المبلغ</string>
+    <string name="paypal_dialog_button">الدفع باستخدام PayPal</string>
+    <string name="paypal_dialog_donation">تبرع</string>
+
+</resources>

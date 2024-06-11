@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoPapier</string>
+    <string name="guardar">Speichern</string>
+    <string name="establecer_fondo">Als Hintergrund festlegen</string>
+    <string name="input_text_hint">Geben Sie hier den Text ein</string>
+    <string name="generar_y_mostrar">Generieren und Bild anzeigen</string>
+    <string name="progress_dialog_message">Der Vorgang läuft</string>
+    <string name="image_generation_successful">Bildgenerierung ERFOLGREICH !!!</string>
+    <string name="save_image_success">Bild erfolgreich gespeichert</string>
+    <string name="save_image_error">Fehler beim Speichern des Bildes</string>
+    <string name="set_wallpaper_error">Fehler beim Festlegen des Hintergrunds</string>
+    <string name="wallpaper_set_success">Hintergrund erfolgreich festgelegt</string>
+    <string name="input_text_empty_warning">Generieren Sie ein Bild, bevor Sie es speichern</string>
+    <string name="background_set_warning">Generieren Sie ein Bild, bevor Sie es als Hintergrund festlegen</string>
+    <string name="input_empty_warning">Bitte geben Sie Text ein, bevor Sie das Bild generieren.</string>
+    <string name="paypal_dialog_title">Geben Sie den Betrag ein, den Sie spenden möchten:</string>
+    <string name="paypal_dialog_hint">Betrag</string>
+    <string name="paypal_dialog_button">Mit PayPal bezahlen</string>
+    <string name="paypal_dialog_donation">Spende</string>
+
+</resources>

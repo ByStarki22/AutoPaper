@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoPaper</string>
+    <string name="guardar">保存</string>
+    <string name="establecer_fondo">设置为壁纸</string>
+    <string name="input_text_hint">在此输入文本</string>
+    <string name="generar_y_mostrar">生成并显示图像</string>
+    <string name="progress_dialog_message">线程正在进行中</string>
+    <string name="image_generation_successful">图像生成成功！</string>
+    <string name="save_image_success">图像保存成功</string>
+    <string name="save_image_error">保存图像时出错</string>
+    <string name="set_wallpaper_error">设置壁纸时出错</string>
+    <string name="wallpaper_set_success">壁纸设置成功</string>
+    <string name="input_text_empty_warning">在保存图像之前生成图像</string>
+    <string name="background_set_warning">在将图像设置为壁纸之前生成图像</string>
+    <string name="input_empty_warning">请在生成图像之前输入文本。</string>
+    <string name="paypal_dialog_title">输入您想要捐赠的金额：</string>
+    <string name="paypal_dialog_hint">金额</string>
+    <string name="paypal_dialog_button">使用 PayPal 支付</string>
+    <string name="paypal_dialog_donation">捐赠</string>
+
+</resources>

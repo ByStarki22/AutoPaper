@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoPapel</string>
+    <string name="guardar">Salvar</string>
+    <string name="establecer_fondo">Definir como Papel de Parede</string>
+    <string name="input_text_hint">Digite o texto aqui</string>
+    <string name="generar_y_mostrar">Gerar e Mostrar Imagem</string>
+    <string name="progress_dialog_message">O processamento está em andamento</string>
+    <string name="image_generation_successful">Geração de Imagem BEM-SUCEDIDA !!!</string>
+    <string name="save_image_success">Imagem salva com sucesso</string>
+    <string name="save_image_error">Erro ao salvar a imagem</string>
+    <string name="set_wallpaper_error">Erro ao definir o papel de parede</string>
+    <string name="wallpaper_set_success">Papel de parede definido com sucesso</string>
+    <string name="input_text_empty_warning">Gere uma imagem antes de salvá-la</string>
+    <string name="background_set_warning">Gere uma imagem antes de defini-la como papel de parede</string>
+    <string name="input_empty_warning">Por favor, insira texto antes de gerar a imagem.</string>
+    <string name="paypal_dialog_title">Digite o valor que você deseja doar:</string>
+    <string name="paypal_dialog_hint">Valor</string>
+    <string name="paypal_dialog_button">Pagar com PayPal</string>
+    <string name="paypal_dialog_donation">Doação</string>
+
+</resources>

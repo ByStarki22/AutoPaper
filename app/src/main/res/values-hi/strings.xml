@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ऑटो पेपर</string>
+    <string name="guardar">सहेजें</string>
+    <string name="establecer_fondo">वॉलपेपर के रूप में सेट करें</string>
+    <string name="input_text_hint">यहाँ पाठ दर्ज करें</string>
+    <string name="generar_y_mostrar">छवि उत्पन्न करें और प्रदर्शित करें</string>
+    <string name="progress_dialog_message">सूत्र प्रक्रिया में है</string>
+    <string name="image_generation_successful">छवि उत्पन्न करने की सफलता!!!</string>
+    <string name="save_image_success">छवि सफलतापूर्वक सहेजी गई</string>
+    <string name="save_image_error">छवि सहेजने में त्रुटि</string>
+    <string name="set_wallpaper_error">वॉलपेपर सेट करने में त्रुटि</string>
+    <string name="wallpaper_set_success">वॉलपेपर सफलतापूर्वक सेट</string>
+    <string name="input_text_empty_warning">इमेज सहेजने से पहले इमेज उत्पन्न करें</string>
+    <string name="background_set_warning">वॉलपेपर के रूप में इमेज सेट करने से पहले इमेज उत्पन्न करें</string>
+    <string name="input_empty_warning">कृपया छवि उत्पन्न करने से पहले पाठ दर्ज करें।</string>
+    <string name="paypal_dialog_title">जितनी राशि आप दान करना चाहते हैं, उसे दर्ज करें:</string>
+    <string name="paypal_dialog_hint">राशि</string>
+    <string name="paypal_dialog_button">PayPal के साथ भुगतान करें</string>
+    <string name="paypal_dialog_donation">दान</string>
+
+</resources>
