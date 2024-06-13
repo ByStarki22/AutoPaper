@@ -18,5 +18,9 @@
     <string name="paypal_dialog_hint">राशि</string>
     <string name="paypal_dialog_button">PayPal के साथ भुगतान करें</string>
     <string name="paypal_dialog_donation">दान</string>
+    <string name="imagen_galeria">छवि गैलरी</string>
+    <string name="cantidad_invalida">कृपया एक वैध मात्रा दर्ज करें</string>
+    <string name="error_cargar_imagen">छवि लोड करते समय त्रुटि</string>
+
 
 </resources>

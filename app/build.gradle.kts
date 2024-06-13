@@ -48,6 +48,6 @@ dependencies {
     implementation("com.android.volley:volley:1.2.1")
     implementation ("com.paypal.sdk:paypal-android-sdk:2.16.0")
     implementation ("com.google.android.gms:play-services-ads:23.1.0")
-
+    implementation("androidx.activity:activity:1.9.0")
 
 }

@@ -18,5 +18,9 @@
     <string name="paypal_dialog_hint">金額</string>
     <string name="paypal_dialog_button">PayPalで支払う</string>
     <string name="paypal_dialog_donation">寄付</string>
+    <string name="imagen_galeria">画像ギャラリー</string>
+    <string name="cantidad_invalida">有効な金額を入力してください</string>
+    <string name="error_cargar_imagen">画像の読み込みエラー</string>
+
 
 </resources>

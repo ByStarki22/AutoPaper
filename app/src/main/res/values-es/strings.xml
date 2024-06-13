@@ -18,4 +18,8 @@
     <string name="paypal_dialog_hint">Cantidad</string>
     <string name="paypal_dialog_button">Pagar con PayPal</string>
     <string name="paypal_dialog_donation">Donacion</string>
+    <string name="imagen_galeria">Imagen Galería</string>
+    <string name="cantidad_invalida">Por favor ingresa una cantidad válida</string>
+    <string name="error_cargar_imagen">Error al cargar la imagen</string>
+
 </resources>

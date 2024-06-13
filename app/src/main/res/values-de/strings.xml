@@ -18,5 +18,9 @@
     <string name="paypal_dialog_hint">Betrag</string>
     <string name="paypal_dialog_button">Mit PayPal bezahlen</string>
     <string name="paypal_dialog_donation">Spende</string>
+    <string name="imagen_galeria">Bildergalerie</string>
+    <string name="cantidad_invalida">Bitte geben Sie einen gültigen Betrag ein</string>
+    <string name="error_cargar_imagen">Fehler beim Laden des Bildes</string>
+
 
 </resources>

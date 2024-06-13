@@ -18,5 +18,8 @@
     <string name="paypal_dialog_hint">金额</string>
     <string name="paypal_dialog_button">使用 PayPal 支付</string>
     <string name="paypal_dialog_donation">捐赠</string>
+    <string name="imagen_galeria">图库</string>
+    <string name="cantidad_invalida">请输入有效金额</string>
+    <string name="error_cargar_imagen">加载图像时出错</string>
 
 </resources>

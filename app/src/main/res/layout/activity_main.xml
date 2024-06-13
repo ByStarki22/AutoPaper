@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -129,6 +130,29 @@
                 android:text="textview"
                 android:textColor="@android:color/white"
                 android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutGallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- Botón Generar y Mostrar Imagen -->
+                <Button
+                    android:id="@+id/ButtonImageGallery"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_button_border"
+                    android:onClick="buttonAction"
+                    android:text="@string/imagen_galeria"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
@@ -165,4 +189,7 @@
             android:layout_height="wrap_content"
             android:text="@string/paypal_dialog_button"/>
     </LinearLayout>
+
+
+
 </FrameLayout>

@@ -18,5 +18,9 @@
     <string name="paypal_dialog_hint">Сумма</string>
     <string name="paypal_dialog_button">Оплатить через PayPal</string>
     <string name="paypal_dialog_donation">Пожертвование</string>
+    <string name="imagen_galeria">Галерея изображений</string>
+    <string name="cantidad_invalida">Пожалуйста, введите допустимую сумму</string>
+    <string name="error_cargar_imagen">Ошибка загрузки изображения</string>
+
 
 </resources>

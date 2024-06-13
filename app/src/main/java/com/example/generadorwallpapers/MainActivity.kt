@@ -17,6 +17,8 @@ import android.widget.ProgressBar
 import android.widget.ScrollView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.activity.result.PickVisualMediaRequest
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import com.android.volley.AuthFailureError
 import com.android.volley.DefaultRetryPolicy
@@ -47,11 +49,13 @@ class MainActivity : AppCompatActivity() {
     private var editText: EditText? = null
     private var textView: TextView? = null
     private val stringURLEndPoint = "https://api.openai.com/v1/images/generations"
-    private val stringAPIKey = "your api key"
+    private val stringAPIKey = "OpenAi Api Key"
     private var bitmapOutputImage: Bitmap? = null
     private var stringOutput: String? = null
     private lateinit var payPalManager: PayPalManager
     private var mInterstitialAd: InterstitialAd? = null
+    lateinit var btnImage:Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -85,8 +89,13 @@ class MainActivity : AppCompatActivity() {
             if (amountString.isNotEmpty()) {
                 val amount = BigDecimal(amountString.trim()) // Usando el constructor que toma una cadena de texto
             } else {
-                Toast.makeText(this, "Por favor ingresa una cantidad válida", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.cantidad_invalida), Toast.LENGTH_SHORT).show()
             }
+        }
+
+        btnImage =findViewById(R.id.ButtonImageGallery)
+        btnImage.setOnClickListener{
+            pickMedia.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
         }
 
     }
@@ -151,6 +160,9 @@ class MainActivity : AppCompatActivity() {
                     // Habilita el botón y oculta el ProgressBar
                     button.isEnabled = true
                     progressBar.visibility = View.GONE
+
+                    loadAd()
+                    mInterstitialAd?.show(this)
                 } catch (e: JSONException) {
                     throw RuntimeException(e)
                 }
@@ -259,7 +271,6 @@ class MainActivity : AppCompatActivity() {
         if (bitmapOutputImage != null) {
             val wallpaperButton = view as Button
             val wallpaperIndex = wallpaperButton.text.toString().substring(10).trim().toInt()
-            // Implementa lógica para establecer el wallpaper según el índice seleccionado
         } else {
             showAlert(getString(R.string.background_set_warning))
         }
@@ -281,7 +292,7 @@ class MainActivity : AppCompatActivity() {
                 payPalManager.startPayment(amount)
                 alertDialog.dismiss()
             } else {
-                Toast.makeText(this, "Por favor ingresa una cantidad válida", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.cantidad_invalida), Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -300,6 +311,19 @@ class MainActivity : AppCompatActivity() {
                 mInterstitialAd = interstitialAd
             }
         })
+    }
+
+    val pickMedia = registerForActivityResult(ActivityResultContracts.PickVisualMedia()) { uri ->
+        if(uri != null){
+            try {
+                bitmapOutputImage = BitmapFactory.decodeStream(contentResolver.openInputStream(uri))
+                imageView?.setImageBitmap(bitmapOutputImage)
+            } catch (e: IOException) {
+                e.printStackTrace()
+                Toast.makeText(this, getString(R.string.error_cargar_imagen), Toast.LENGTH_SHORT).show()
+            }
+
+        }
     }
 
 }
