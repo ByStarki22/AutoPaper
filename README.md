@@ -1,3 +1,20 @@
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+This project is simple Lorem ipsum dolor generator.
+	
+## Technologies
+Project is created with:
+* Lorem version: 12.3
+* Ipsum version: 2.33
+* Ament library version: 999
+	
+## Setup
+To run this project, install it locally using npm:
+
 Wallpaper Generator
 This repository contains an Android application that generates custom wallpapers using the OpenAI API. The application also allows setting the generated images as wallpapers and saving them to the device gallery. Additionally, it includes PayPal integration for donations and displays interstitial ads.
 
@@ -17,7 +34,9 @@ Clone this repository:
 
 bash
 Copiar código
-git clone https://github.com/ByStarki22/GeneradorWallpapers.git
+```
+git clone https://github.com/ByStarki22/wallpaper-generator.git
+```
 Open the project in Android Studio.
 
 Add your OpenAI API Key and PayPal Client ID to the corresponding variables in the code:
@@ -41,7 +60,11 @@ You can set the image as wallpaper, save it to the gallery, or make a donation.
 Screenshots
 Add screenshots of the application here.
 
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
 Contributions
 Contributions are welcome. Please open an issue or a pull request to discuss any changes you would like to make.
 
-Thank you for using the Wallpaper Generator!
+Contact
+If you have any questions or suggestions, feel free to contact me at your-email@example.com
